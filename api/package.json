@@ -1,0 +1,15 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Renzo Navarro",
+  "license": "MIT",
+  "scripts": {
+    "start": "json-server -p 3001 --w db.json"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "json-server": "^0.16.1",
+    "redux-thunk": "^2.3.0"
+  }
+}

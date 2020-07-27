@@ -1,0 +1,44 @@
+<head>
+  <style>
+    .sidebar {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100vh;
+      width: 300px;
+      background-color: green;
+    }
+    .content {
+      margin-left: 300px;
+    }
+    .modal-body {
+      margin: auto;
+      width: 30%;
+      height: 30%;
+      background-color: white;
+    }
+    .modal {
+      position: fixed;
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      background-color: grey;
+      z-index: 10;
+    }
+    .positioned {
+      position: relative;
+      z-index: 0;
+    }
+  </style>
+</head>
+<body>
+  <div class="modal">
+    <div class="modal-body">
+      <h1>I am a modal</h1>
+    </div>
+  </div>
+  <div class="positioned"></div>
+  <div class="sidebar">I am a sidebar</div>
+  <div class="content">I am a content</div>
+</body>

@@ -1,0 +1,26 @@
+{
+  "name": "client",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Renzo Navarro",
+  "license": "MIT",
+  "scripts": {
+    "dev": "parcel index.html"
+  },
+  "dependencies": {
+    "@types/gapi": "^0.0.39",
+    "axios": "^0.19.2",
+    "dotenv": "^8.2.0",
+    "parcel-bundler": "^1.12.4",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "react-redux": "^7.2.0",
+    "react-router-dom": "^5.1.2",
+    "redux": "^4.0.5",
+    "redux-form": "^8.3.0",
+    "redux-thunk": "^2.3.0"
+  },
+  "devDependencies": {
+    "typescript": "^3.8.2"
+  }
+}
