@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@types/gapi": "^0.0.39",
-    "axios": "^0.19.2",
+    "axios": "^0.21.1",
     "dotenv": "^8.2.0",
     "parcel-bundler": "^1.12.4",
     "react": "^16.12.0",
